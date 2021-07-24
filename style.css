@@ -1,0 +1,52 @@
+.carousel-indicators {
+  left: -4rem;
+}
+.carousel-caption {
+  top: 9rem;
+  left: 8.75rem;
+  width: 31.3125rem;
+  height: 10.4375rem;
+}
+#cennet-koyu-text {
+  font-size: 50px;
+  text-align: left;
+  line-height: 76px;
+}
+#see-project-link {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+#first-slide-year {
+  font-size: 39px;
+  text-align: left;
+  line-height: 47px;
+  opacity: 1;
+}
+#first-slide-year span {
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+  width: 100%;
+  align-items: left;
+}
+#first-indicator-text {
+  margin-top: 250px;
+  text-align: left;
+  width: 300px;
+  font-size: 36px;
+  line-height: 23px;
+}
+#first-indicator-text span {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
