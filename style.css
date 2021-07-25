@@ -186,4 +186,7 @@ li {
   .collapse {
     margin-top: -20px;
   }
+  li {
+    margin-left: 30px;
+  }
 }
