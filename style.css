@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .carousel-indicators {
   left: -4rem;
 }
@@ -8,28 +13,28 @@
   height: 10.4375rem;
 }
 #cennet-koyu-text {
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: left;
-  line-height: 76px;
+  line-height: 3.125rem;
 }
 #see-project-link {
   display: block;
   text-decoration: none;
   text-align: left;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.625rem;
+  line-height: 6.25rem;
   color: white;
 }
 #first-slide-year {
-  font-size: 39px;
+  font-size: 2.4375rem;
   text-align: left;
-  line-height: 47px;
+  line-height: 2.9375rem;
   opacity: 1;
 }
 #first-slide-year span {
-  font-size: 20px;
+  font-size: 1.25rem;
   opacity: 0.7;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 #btn1,
 #btn2,
@@ -39,14 +44,137 @@
   align-items: left;
 }
 #first-indicator-text {
-  margin-top: 250px;
+  margin-top: 14.375rem;
   text-align: left;
-  width: 300px;
-  font-size: 36px;
-  line-height: 23px;
+  width: 18.75rem;
+  font-size: 2.25rem;
+  line-height: 1.4375rem;
 }
 #first-indicator-text span {
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+#second-indicator-text {
+  margin-top: 16.25rem;
+  margin-left: 15.9375rem;
+  text-align: left;
+  width: 18.75rem;
+  font-size: 2.25rem;
+  line-height: 1.4375rem;
+}
+#second-indicator-text span {
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+#oxa-text {
+  font-size: 3.125rem;
+  text-align: left;
+  line-height: 3.125rem;
+  margin-left: -10rem;
+}
+#oxa-year {
+  font-size: 2.4375rem;
+  text-align: left;
+  line-height: 2.9375rem;
+  opacity: 1;
+  margin-left: -10rem;
+  margin-top: -8.125rem;
+}
+#oxa-year span {
+  font-size: 1.25rem;
+  opacity: 0.7;
+  line-height: 1.5rem;
+}
+#oxa-see-project-link {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.5625rem;
+  line-height: 6.25rem;
+  color: white;
+  margin-left: -9.375rem;
+}
+#third-indicator-text {
+  margin-top: 13.4375rem;
+  margin-left: 23.125rem;
+  text-align: left;
+  width: 18.75rem;
+  font-size: 2.25rem;
+  line-height: 1.4375rem;
+}
+#third-indicator-text span {
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+#fourth-indicator-text {
+  margin-top: 14.0625rem;
+  margin-left: 47.5rem;
+  text-align: left;
+  width: 18.75rem;
+  font-size: 2.25rem;
+  line-height: 1.4375rem;
+}
+#fourth-indicator-text span {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+nav {
+  text-align: right;
+}
+a {
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.kapsar {
+  position: relative;
+}
+.my-navbar-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.navbar-toggler:active {
+  border: none;
+}
+li {
+  list-style: none;
+}
+.myShow {
+  background: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    black 60%,
+    black 100%
+  );
+}
+#crosIcon {
+  display: none;
+}
+#social-media {
+  margin-top: 19rem;
+}
+.fa-facebook {
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+.fa-instagram {
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+.fa-twitter {
+  margin-right: 2.5rem;
 }
