@@ -184,9 +184,7 @@ li {
     line-height: 16px;
   }
   .collapse {
-    margin-top: -40px;
-  }
-  li {
+    margin-top: -60px;
     margin-left: 60px;
   }
 }
