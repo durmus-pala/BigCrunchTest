@@ -178,3 +178,8 @@ li {
 .fa-twitter {
   margin-right: 2.5rem;
 }
+@media only screen and (max-width: 600px) {
+  .collapse a {
+    font-size: 12px;
+  }
+}
